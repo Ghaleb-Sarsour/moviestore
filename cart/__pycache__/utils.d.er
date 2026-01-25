@@ -1,0 +1,2 @@
+##[pylyzer] failed /home/ext4/moviestore/cart/utils.py 1769323059 196
+.calculate_cart_total: (cart: global::Indexable(Obj, Never), movies_in_cart: global::Iterable(Structural({.price = Structural({.__mul__ = (self: Never, Obj) -> Nat}); .id = Never}))) -> Nat

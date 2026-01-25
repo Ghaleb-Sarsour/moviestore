@@ -1,0 +1,17 @@
+##[pylyzer] failed /home/ext4/moviestore/movies/admin.py 1769299779 195
+.admin = pyimport "__init__"
+.__init__ = pyimport "__init__"
+
+.___v_desugar_1 = pyimport "models"
+.models = pyimport "models"
+.Movie: {models.Movie}
+.MovieAdmin: ClassType
+options = pyimport "options"
+.MovieAdmin <: options.ModelAdmin
+.MovieAdmin.ordering: global::List!({"name"}, 1)
+
+
+{"name"}, 1)
+
+
+

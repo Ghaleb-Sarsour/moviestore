@@ -1,0 +1,18 @@
+##[pylyzer] failed /home/ext4/moviestore/accounts/forms.py 1769293332 709
+.___v_desugar_1 = pyimport "forms"
+.forms = pyimport "forms"
+.UserCreationForm: {forms.UserCreationForm}
+.___v_desugar_2 = pyimport "utils"
+.utils = pyimport "utils"
+.ErrorList: {utils.ErrorList}
+.___v_desugar_3 = pyimport "safestring"
+.safestring = pyimport "safestring"
+.mark_safe: (s: Obj) -> Never
+.CustomErrorList: ClassType
+.CustomErrorList <: utils.ErrorList
+.CustomErrorList.__str__: (self: Never) -> Never
+
+.CustomUserCreationForm: ClassType
+.CustomUserCreationForm <: .UserCreationForm
+.CustomUserCreationForm.__call__: (*args: Obj, **kwargs := Obj) -> forms.CustomUserCreationForm
+

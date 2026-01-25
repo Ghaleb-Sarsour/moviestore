@@ -1,0 +1,10 @@
+##[pylyzer] failed /home/ext4/moviestore/cart/admin.py 1769364778 118
+.admin = pyimport "__init__"
+.__init__ = pyimport "__init__"
+
+.___v_desugar_1 = pyimport "models"
+.models = pyimport "models"
+.Order: {models.Order}
+.Item: Never
+
+

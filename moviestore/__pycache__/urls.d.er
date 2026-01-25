@@ -1,0 +1,20 @@
+##[pylyzer] failed /home/ext4/moviestore/moviestore/urls.py 1769322788 1100
+
+.admin = pyimport "__init__"
+.__init__ = pyimport "__init__"
+
+.___v_desugar_1 = pyimport "urls"
+.urls = pyimport "urls"
+.path: Never
+.include: (arg: Obj, namespace: Obj := Obj) -> global::Tuple([Obj, Obj, Never])
+.___v_desugar_2 = pyimport "static"
+.static = pyimport "static"
+
+.___v_desugar_3 = pyimport "conf"
+.conf = pyimport "conf"
+.settings: conf.LazySettings
+.urlpatterns: Never
+.urlpatterns: Never
+yimport "conf"
+.settings: conf.LazySettings
+.urlpatterns: Never

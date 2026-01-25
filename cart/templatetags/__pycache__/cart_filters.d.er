@@ -1,0 +1,6 @@
+##[pylyzer] failed /home/ext4/moviestore/cart/templatetags/cart_filters.py 1769323092 168
+.template = pyimport "__init__"
+.__init__ = pyimport "__init__"
+
+.register: Never
+.get_cart_quantity: |V: Type|(cart: global::Indexable(Obj, V), movie_id: Obj) -> V

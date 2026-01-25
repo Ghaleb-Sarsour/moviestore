@@ -1,0 +1,27 @@
+##[pylyzer] failed /home/ext4/moviestore/cart/models.py 1769364716 798
+.models = pyimport "__init__"
+.__init__ = pyimport "__init__"
+
+.___v_desugar_1: Never
+.Movie: Never
+.___v_desugar_2 = pyimport "models"
+
+.User: {models.User}
+.Order: ClassType
+base = pyimport "base"
+.Order <: base.Model
+.Order.id: Never
+.Order.total: Never
+.Order.date: Never
+.Order.user: Never
+.Order.__str__: (self: models.Order) -> Str
+
+.Item: ClassType
+.Item <: base.Model
+.Item.id: Never
+.Item.price: Never
+.Item.quantity: Never
+.Item.order: Never
+.Item.movie: Never
+.Item.__str__: (self: models.Item) -> Str
+

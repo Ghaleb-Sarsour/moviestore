@@ -1,0 +1,7 @@
+##[pylyzer] failed /home/ext4/moviestore/home/views.py 1769044326 391
+.___v_desugar_1 = pyimport "shortcuts"
+.shortcuts = pyimport "shortcuts"
+.render: (request: Obj, template_name: Obj, context: Obj := Obj, content_type: Obj := Obj, status: Obj := Obj, using: Obj := Obj) -> Never
+.index: (request: Obj) -> Never
+.about: (request: Obj) -> Never
+st: Obj, template_name: Obj, context: Obj := Obj, content_type: Obj := Obj, status: Obj := Obj, using: Obj := Obj) -> Never

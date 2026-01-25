@@ -1,0 +1,25 @@
+##[pylyzer] failed /home/ext4/moviestore/cart/views.py 1769364874 1932
+.___v_desugar_1 = pyimport "shortcuts"
+.shortcuts = pyimport "shortcuts"
+.render: (request: Obj, template_name: Obj, context: Obj := Obj, content_type: Obj := Obj, status: Obj := Obj, using: Obj := Obj) -> Never
+.___v_desugar_2 = pyimport "shortcuts"
+
+.get_object_or_404: (klass: global::Indexable(Obj, Never) or global::List(Never, _: Nat) or global::GenericDict, *args: Obj, **_ := Obj) -> Never
+.redirect: Never
+.___v_desugar_3: Never
+.Movie: Never
+.___v_desugar_4 = pyimport "utils"
+.utils = pyimport "utils"
+.calculate_cart_total: (cart: global::Indexable(Obj, Never), movies_in_cart: global::Iterable(Structural({.price = Structural({.__mul__ = (self: Never, Obj: Obj) -> Nat}); .id = Never}))) -> Nat
+.___v_desugar_5 = pyimport "models"
+.models = pyimport "models"
+.Order: {models.Order}
+.Item: Never
+.___v_desugar_6 = pyimport "decorators"
+.decorators = pyimport "decorators"
+.login_required: (function: Bool := Bool and Bool, redirect_field_name: Bool := Bool and Bool, login_url: Structural({.__or__ = (self: Never, Obj: Obj) -> Structural({.__or__ = (self: Never, Obj: Obj) -> Structural({.startswith = (self: Obj, Obj: Obj) -> Never; .__contains__ = (self: Never, Obj: Obj) -> Bool}); .startswith = (self: Obj, Obj: Obj) -> Never; .__contains__ = (self: Never, Obj: Obj) -> Bool})}) := {_: Never | True} and Structural({.__or__ = (self: Never, Obj: Obj) -> Structural({.__or__ = (self: Never, Obj: Obj) -> Structural({.startswith = (self: Obj, Obj: Obj) -> Never; .__contains__ = (self: Never, Obj: Obj) -> Bool}); .startswith = (self: Obj, Obj: Obj) -> Never; .__contains__ = (self: Never, Obj: Obj) -> Bool})})) -> (view_func: Bool) -> Never
+.index: |N: Nat, K: Type, Type_25580 <: Structural({.session = Type_25609}), V: Type, Self <: global::Indexable(K, V), Type_25609 <: Self or global::List(NoneType, N) or global::GenericDict|(request: Type_25580) -> Never
+.add: |K: Type, K :> {"cart"}, T: Type, Type_25582 <: Structural({.POST = Self; .session = Type_25756 and Type_25812}), V: Type, Self <: global::Indexable(K, V), N: Nat, K :> {"quantity"}, Type_25756 <: global::List(T, N) or Self or global::GenericDict, V :> NoneType or T, Type_25812 <: global::Dict!({K: V}), Self <: global::Indexable(K, V)|(request: Type_25582, id: Obj) -> Never
+.clear: |Type_25585 <: Structural({.session = Type_25855}), K :> {"cart"}, Type_25864: Type, Type_25855 <: global::Dict!({K: V}), Type_25863: Type, V :> global::Dict!({Type_25863: Type_25864})|(request: Type_25585) -> Never
+.purchase: |Type_25587 <: Structural({.session = Type_25919 and Type_25978; .user = Never}), K: Type, K :> {"cart"}, V: Type, V :> global::Dict!({Type_25986: Type_25987}), N: Nat, Type_25986: Type, Type_25919 <: global::GenericDict or global::List(NoneType, N) or Self, Type_25978 <: global::Dict!({K: V}), Type_25987: Type, Self <: global::Indexable(K, V)|(request: Type_25587) -> Never
+> Never

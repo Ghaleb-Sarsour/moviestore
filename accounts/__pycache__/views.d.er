@@ -1,0 +1,29 @@
+##[pylyzer] failed /home/ext4/moviestore/accounts/views.py 1769365247 2061
+.___v_desugar_1 = pyimport "shortcuts"
+.shortcuts = pyimport "shortcuts"
+.render: (request: Obj, template_name: Obj, context: Obj := Obj, content_type: Obj := Obj, status: Obj := Obj, using: Obj := Obj) -> Never
+.___v_desugar_2 = pyimport "auth"
+.auth = pyimport "auth"
+.auth_login: Never
+.authenticate: (request: Obj := Obj, **_ := Obj) -> Never
+.auth_logout: Never
+.___v_desugar_3 = pyimport "forms"
+.forms = pyimport "forms"
+.CustomUserCreationForm: {forms.CustomUserCreationForm}
+.CustomErrorList: {forms.CustomErrorList}
+.___v_desugar_4 = pyimport "forms"
+
+.UserCreationForm: {forms.UserCreationForm}
+.___v_desugar_5 = pyimport "shortcuts"
+
+.redirect: Never
+.___v_desugar_6 = pyimport "decorators"
+.decorators = pyimport "decorators"
+.login_required: (function: Bool := Bool and Bool, redirect_field_name: Bool := Bool and Bool, login_url: Structural({.__or__ = (self: Never, Obj: Obj) -> Structural({.__or__ = (self: Never, Obj: Obj) -> Structural({.startswith = (self: Obj, Obj: Obj) -> Never; .__contains__ = (self: Never, Obj: Obj) -> Bool}); .startswith = (self: Obj, Obj: Obj) -> Never; .__contains__ = (self: Never, Obj: Obj) -> Bool})}) := {_: Never | True} and Structural({.__or__ = (self: Never, Obj: Obj) -> Structural({.__or__ = (self: Never, Obj: Obj) -> Structural({.startswith = (self: Obj, Obj: Obj) -> Never; .__contains__ = (self: Never, Obj: Obj) -> Bool}); .startswith = (self: Obj, Obj: Obj) -> Never; .__contains__ = (self: Never, Obj: Obj) -> Bool})})) -> (view_func: Bool) -> Never
+.___v_desugar_7 = pyimport "models"
+.models = pyimport "models"
+.User: {models.User}
+.logout: (request: Obj) -> Never
+.login: |E :> {"GET"}, Type_30785 <: Structural({.POST = Self; .method = E and Type_30842}), Type_30842: Type, V: Type, Self <: global::Indexable(K, V), K :> {"username"}|(request: Type_30785) -> NoneType
+.signup: |Type_30978: Type, Type_30981: Type, E :> {"GET"}, Type_30787 <: Structural({.POST = Type_30981; .method = E and Type_30978})|(request: Type_30787) -> NoneType
+.orders: |Type_30789 <: Structural({.user = Type_31054}), Type_31054: Type|(request: Type_30789) -> Never

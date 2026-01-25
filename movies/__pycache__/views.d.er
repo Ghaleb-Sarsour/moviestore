@@ -1,0 +1,18 @@
+##[pylyzer] failed /home/ext4/moviestore/movies/views.py 1769322567 2205
+.___v_desugar_1 = pyimport "shortcuts"
+.shortcuts = pyimport "shortcuts"
+.render: (request: Obj, template_name: Obj, context: Obj := Obj, content_type: Obj := Obj, status: Obj := Obj, using: Obj := Obj) -> Never
+.redirect: Never
+.get_object_or_404: (klass: global::Indexable(Obj, Never) or global::List(Never, _: Nat) or global::GenericDict, *args: Obj, **_ := Obj) -> Never
+.___v_desugar_2 = pyimport "models"
+.models = pyimport "models"
+.Movie: {models.Movie}
+.Review: {models.Review}
+.___v_desugar_3 = pyimport "decorators"
+.decorators = pyimport "decorators"
+.login_required: (function: Bool := Bool and Bool, redirect_field_name: Bool := Bool and Bool, login_url: Structural({.__or__ = (self: Never, Obj: Obj) -> Structural({.__or__ = (self: Never, Obj: Obj) -> Structural({.startswith = (self: Obj, Obj: Obj) -> Never; .__contains__ = (self: Never, Obj: Obj) -> Bool}); .startswith = (self: Obj, Obj: Obj) -> Never; .__contains__ = (self: Never, Obj: Obj) -> Bool})}) := {_: Never | True} and Structural({.__or__ = (self: Never, Obj: Obj) -> Structural({.__or__ = (self: Never, Obj: Obj) -> Structural({.startswith = (self: Obj, Obj: Obj) -> Never; .__contains__ = (self: Never, Obj: Obj) -> Bool}); .startswith = (self: Obj, Obj: Obj) -> Never; .__contains__ = (self: Never, Obj: Obj) -> Bool})})) -> (view_func: Bool) -> Never
+.index: |Type_25969 <: Structural({.GET = Type_25996}), K: Type, Self <: global::Indexable(K, V), V: Type, Type_25996 <: Self or global::List(NoneType, N) or global::GenericDict, N: Nat|(request: Type_25969) -> Never
+.show: (request: Obj, id: Obj) -> Never
+.create_review: |E :> {"POST"}, Type_25974 <: Structural({.POST = Self; .method = E; .user = Never}), E :> {""}, Self <: global::Indexable(K, E), K :> {"comment"}|(request: Type_25974, id: Obj) -> Never
+.edit_review: |Type_25977 <: Structural({.POST = Self; .method = E and Type_26536; .user = E}), Self <: global::Indexable(K, E), Type_26536: Type, E: Type, E :> {""}, K :> {"comment"}, E :> {"GET"}|(request: Type_25977, id: Obj, review_id: Obj) -> Never
+.delete_review: |Type_25981 <: Structural({.user = Type_26661}), Type_26661: Type|(request: Type_25981, id: Obj, review_id: Obj) -> Never

@@ -1,0 +1,26 @@
+##[pylyzer] failed /home/ext4/moviestore/movies/models.py 1769299673 762
+.models = pyimport "__init__"
+.__init__ = pyimport "__init__"
+
+.___v_desugar_1 = pyimport "models"
+
+.User: {models.User}
+.Movie: ClassType
+base = pyimport "base"
+.Movie <: base.Model
+.Movie.id: Never
+.Movie.name: Never
+.Movie.price: Never
+.Movie.description: Never
+.Movie.image: Never
+.Movie.__str__: (self: models.Movie) -> Str
+
+.Review: ClassType
+.Review <: base.Model
+.Review.id: Never
+.Review.comment: Never
+.Review.date: Never
+.Review.movie: Never
+.Review.user: Never
+.Review.__str__: (self: models.Review) -> Str
+

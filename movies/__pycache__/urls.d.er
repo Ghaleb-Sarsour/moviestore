@@ -1,0 +1,7 @@
+##[pylyzer] failed /home/ext4/moviestore/movies/urls.py 1769322594 457
+.___v_desugar_1 = pyimport "urls"
+.urls = pyimport "urls"
+.path: Never
+.views = pyimport "views"
+
+.urlpatterns: global::List!(Never, 5)
